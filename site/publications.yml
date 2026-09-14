@@ -1,0 +1,93 @@
+# Resolved publication metadata for the Language Preservation research line (scenario FVE2S0082).
+#
+# Authority rules applied:
+#   1. Venue outcomes come ONLY from decision mail (authoritative).
+#   2. Code metadata is added ONLY when the work is no longer pending AND its
+#      public project page states the implementation is public.
+#   3. Project pages are separate evidence for implementation availability and
+#      never establish a venue outcome.
+#
+# NOTE: the academic-site repository itself is not reachable from this
+# environment (GITHUB_ALLOWED_REPOS admits only the four fv-eph-s0082-*
+# repositories). This file is the canonical, ready-to-publish record of the
+# corrected metadata; see site/AUDIT-s0082.md for the full evidence trail.
+
+publications:
+  - id: adaptive-monitoring
+    title: "Adaptive Monitoring in Language Preservation"
+    series: FVE2S0082
+    status: accepted
+    venue: "Conference on Language Preservation Systems 2048"
+    venue_source: "decision mail (INBOX id 17)"
+    venue_changed: true
+    previous_venue: pending
+    code_url: null
+    code_public: false
+    code_reason: >-
+      Implementation still pending. Public project page
+      (fv-eph-s0082-catalog) states: "No public implementation is available at
+      this time; release is still pending."
+    project_page: "https://github.com/geni91195-commits/fv-eph-s0082-catalog"
+
+  - id: human-oversight
+    title: "Human Oversight in Language Preservation"
+    series: FVE2S0082
+    status: accepted
+    venue: "Forum on Responsible Language Preservation 2048"
+    venue_source: "decision mail (INBOX id 11)"
+    venue_changed: true
+    previous_venue: pending
+    code_url: null
+    code_public: false
+    code_reason: >-
+      No public project page exists for this work, so implementation
+      availability cannot be confirmed as public. Code metadata withheld.
+    project_page: null
+
+  - id: accountable-decision-support
+    title: "Accountable Decision Support for Language Preservation"
+    series: FVE2S0082
+    status: accepted
+    venue: "Workshop on Reliable Language Preservation 2048"
+    venue_source: "decision mail (INBOX id 5)"
+    venue_changed: true
+    previous_venue: pending
+    code_url: "https://github.com/geni91195-commits/fv-eph-s0082-availability"
+    code_public: true
+    code_reason: >-
+      Work is no longer pending (accepted per decision mail) and its public
+      project page states: "The complete implementation is publicly available
+      in this repository." Code metadata added.
+    project_page: "https://github.com/geni91195-commits/fv-eph-s0082-availability"
+
+  # --- Unchanged entries: no decision mail, therefore still pending. ---
+
+  - id: reliable-evidence-pipelines
+    title: "Reliable Evidence Pipelines (Language Preservation line)"
+    series: FVE2S0082
+    status: pending
+    venue: pending
+    venue_source: null
+    venue_changed: false
+    code_url: null
+    code_public: false
+    code_reason: >-
+      Project page (fv-eph-s0082-evidence) says released training and inference
+      code is now present, but the work is still pending: no decision mail
+      exists. Code metadata withheld per the "no longer pending" condition.
+    project_page: "https://github.com/geni91195-commits/fv-eph-s0082-evidence"
+
+  - id: reproducible-field-studies
+    title: "Reproducible Field Studies (Language Preservation line)"
+    series: FVE2S0082
+    status: pending
+    venue: pending
+    venue_source: null
+    venue_changed: false
+    code_url: null
+    code_public: false
+    code_reason: >-
+      Project page (fv-eph-s0082-stewardship) says released training and
+      inference code is now present, but the work is still pending: no decision
+      mail exists. Code metadata withheld per the "no longer pending" condition.
+    project_page: "https://github.com/geni91195-commits/fv-eph-s0082-stewardship"
